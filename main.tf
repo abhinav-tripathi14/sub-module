@@ -15,5 +15,5 @@ module "vpc_vpc-endpoints" {
   source  = "app.terraform.io/Test-Abhinav/vpc/aws//modules/vpc-endpoints"
   version = "1.0.0"
 }
-resource "null_resoyrce" "test"{
+resource "null_resource" "test"{
 }
