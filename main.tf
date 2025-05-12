@@ -16,4 +16,5 @@ module "vpc_vpc-endpoints" {
   version = "1.0.0"
 }
 resource "null_resource" "test"{
+count=2
 }
